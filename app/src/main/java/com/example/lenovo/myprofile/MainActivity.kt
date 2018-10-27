@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         ButtonPhoto?.setOnClickListener({
             val intent = Intent(this, ProfilePhoto::class.java)
             startActivity(intent)
+            
         })
     }
 }
